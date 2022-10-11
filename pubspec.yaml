@@ -19,6 +19,16 @@ dev_dependencies:
 
   flutter_lints: ^2.0.0
 
+  flutter_launcher_icons:
+    git:
+      url: https://github.com/fluttercommunity/flutter_launcher_icons
+      ref: v0.11.0
+
+flutter_icons:
+  macos:
+    generate: true
+    image_path: "./assets/icon/icon.png"
+
 flutter:
 
   uses-material-design: true
